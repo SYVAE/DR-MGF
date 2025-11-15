@@ -1,0 +1,24 @@
+--------0117  loss landscape--------
+Parameter Space: ABS: 44229076.0, REL: 1.7705
+LOSS FORMAT: SEMANTIC_LOSS MEAN_IOU PIX_ACC | DEPTH_LOSS ABS_ERR REL_ERR | NORMAL_LOSS MEAN MED <11.25 <22.5 <30
+Applying data augmentation on NYUv2.
+metalr:0.1
+metaGF: modified by sy...
+['encoder_block.0.forwardlist.0.bias', 'encoder_block.1.forwardlist.0.bias', 'encoder_block.2.forwardlist.0.bias', 'encoder_block.3.forwardlist.0.bias', 'encoder_block.4.forwardlist.0.bias', 'decoder_block.0.forwardlist.0.bias', 'decoder_block.1.forwardlist.0.bias', 'decoder_block.2.forwardlist.0.bias', 'decoder_block.3.forwardlist.0.bias', 'decoder_block.4.forwardlist.0.bias', 'conv_block_enc.0.forwardlist.0.bias', 'conv_block_enc.1.forwardlist.0.bias', 'conv_block_enc.2.forwardlist.0.forwardlist.0.bias', 'conv_block_enc.2.forwardlist.1.forwardlist.0.bias', 'conv_block_enc.3.forwardlist.0.forwardlist.0.bias', 'conv_block_enc.3.forwardlist.1.forwardlist.0.bias', 'conv_block_enc.4.forwardlist.0.forwardlist.0.bias', 'conv_block_enc.4.forwardlist.1.forwardlist.0.bias', 'conv_block_dec.0.forwardlist.0.bias', 'conv_block_dec.1.forwardlist.0.bias', 'conv_block_dec.2.forwardlist.0.forwardlist.0.bias', 'conv_block_dec.2.forwardlist.1.forwardlist.0.bias', 'conv_block_dec.3.forwardlist.0.forwardlist.0.bias', 'conv_block_dec.3.forwardlist.1.forwardlist.0.bias', 'conv_block_dec.4.forwardlist.0.forwardlist.0.bias', 'conv_block_dec.4.forwardlist.1.forwardlist.0.bias', 'encoder_att.0.0.0.bias', 'encoder_att.0.0.3.bias', 'encoder_att.0.1.0.bias', 'encoder_att.0.1.3.bias', 'encoder_att.0.2.0.bias', 'encoder_att.0.2.3.bias', 'encoder_att.0.3.0.bias', 'encoder_att.0.3.3.bias', 'encoder_att.0.4.0.bias', 'encoder_att.0.4.3.bias', 'encoder_att.1.0.0.bias', 'encoder_att.1.0.3.bias', 'encoder_att.1.1.0.bias', 'encoder_att.1.1.3.bias', 'encoder_att.1.2.0.bias', 'encoder_att.1.2.3.bias', 'encoder_att.1.3.0.bias', 'encoder_att.1.3.3.bias', 'encoder_att.1.4.0.bias', 'encoder_att.1.4.3.bias', 'encoder_att.2.0.0.bias', 'encoder_att.2.0.3.bias', 'encoder_att.2.1.0.bias', 'encoder_att.2.1.3.bias', 'encoder_att.2.2.0.bias', 'encoder_att.2.2.3.bias', 'encoder_att.2.3.0.bias', 'encoder_att.2.3.3.bias', 'encoder_att.2.4.0.bias', 'encoder_att.2.4.3.bias', 'decoder_att.0.0.0.bias', 'decoder_att.0.0.3.bias', 'decoder_att.0.1.0.bias', 'decoder_att.0.1.3.bias', 'decoder_att.0.2.0.bias', 'decoder_att.0.2.3.bias', 'decoder_att.0.3.0.bias', 'decoder_att.0.3.3.bias', 'decoder_att.0.4.0.bias', 'decoder_att.0.4.3.bias', 'decoder_att.1.0.0.bias', 'decoder_att.1.0.3.bias', 'decoder_att.1.1.0.bias', 'decoder_att.1.1.3.bias', 'decoder_att.1.2.0.bias', 'decoder_att.1.2.3.bias', 'decoder_att.1.3.0.bias', 'decoder_att.1.3.3.bias', 'decoder_att.1.4.0.bias', 'decoder_att.1.4.3.bias', 'decoder_att.2.0.0.bias', 'decoder_att.2.0.3.bias', 'decoder_att.2.1.0.bias', 'decoder_att.2.1.3.bias', 'decoder_att.2.2.0.bias', 'decoder_att.2.2.3.bias', 'decoder_att.2.3.0.bias', 'decoder_att.2.3.3.bias', 'decoder_att.2.4.0.bias', 'decoder_att.2.4.3.bias', 'encoder_block_att.0.forwardlist.0.bias', 'encoder_block_att.1.forwardlist.0.bias', 'encoder_block_att.2.forwardlist.0.bias', 'encoder_block_att.3.forwardlist.0.bias', 'encoder_block_att.4.forwardlist.0.bias', 'decoder_block_att.0.forwardlist.0.bias', 'decoder_block_att.1.forwardlist.0.bias', 'decoder_block_att.2.forwardlist.0.bias', 'decoder_block_att.3.forwardlist.0.bias', 'decoder_block_att.4.forwardlist.0.bias', 'pred_task1.forwardlist.0.bias', 'pred_task1.forwardlist.1.bias', 'pred_task2.forwardlist.0.bias', 'pred_task2.forwardlist.1.bias', 'pred_task3.forwardlist.0.bias', 'pred_task3.forwardlist.1.bias']
+>>>>>meta updating
+>>>>adapting
+Epoch(adapt):{0} Loss 6.4098	
+Epoch(adapt):{0} Loss 6.3696	
+Epoch(adapt):{0} Loss 5.9031	
+Epoch(adapt):{0} Loss 6.7224	
+------------------the total time cost:281.9194221496582
+>>>>>meta updating
+Epoch: 0000 | TRAIN: 2.7166 0.0210 0.0615 | 2.2809 2.2809 0.9634 | 0.9219 84.7239 84.2535 0.0110 0.0448 0.0789 ||TEST: 2.7653 0.0216 0.0635 | 2.5779 2.5779 0.9581 | 0.9285 85.1530 84.4964 0.0119 0.0467 0.0816 | 128.6974
+>>>>>meta updating
+>>>>adapting
+Epoch(adapt):{0} Loss 6.0673	
+Epoch(adapt):{0} Loss 5.1249	
+Epoch(adapt):{0} Loss 5.2161	
+Epoch(adapt):{0} Loss 5.8078	
+------------------the total time cost:246.9447205066681
+>>>>>meta updating

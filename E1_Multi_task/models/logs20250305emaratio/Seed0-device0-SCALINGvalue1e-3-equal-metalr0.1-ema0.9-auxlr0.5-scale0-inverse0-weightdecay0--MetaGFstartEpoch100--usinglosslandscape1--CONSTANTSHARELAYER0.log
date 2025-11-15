@@ -1,0 +1,5 @@
+--------0117  loss landscape--------
+Parameter Space: ABS: 44229076.0, REL: 1.7705
+LOSS FORMAT: SEMANTIC_LOSS MEAN_IOU PIX_ACC | DEPTH_LOSS ABS_ERR REL_ERR | NORMAL_LOSS MEAN MED <11.25 <22.5 <30
+Applying data augmentation on NYUv2.
+metalr:0.1
