@@ -4,9 +4,9 @@ Yi Sun, Xiaochang Hu, Xin Xu*, IEEE Senior Member , Jian Li*, Yifei Shi, and Lin
 
 Abstract—Multi-output deep neural networks (MONs) contain multiple output branches of various tasks, and these tasks typically share partial network filters, resulting in entangled inference routes between different tasks within the networks. Due to the divergent optimization objectives, the task gradients during training usually interfere with each other along the shared routes, which decreases the overall model performance. To address this issue, we propose a novel gradient de-conflict algorithm named DR-MGF (Dynamic Routes and Meta-weighted Gradient Fusion). Different from existing de-conflict methods, DR-MGF achieves gradient de-conflict in MONs by learning task-preferred inference routes. The proposed method is motivated by our experimental findings that the shared filters are not equally important for different tasks. By designing learnable task-specific importance variables, DR-MGF evaluates the importance of filters for different tasks. Through making the dominance of tasks over filters proportional to the task-specific importance of filters, DR-MGF can effectively reduce inter-task interference. These task-specific importance variables ultimately determine task-preferred inference routes at the end of training iterations. Extensive experimental results on CIFAR, ImageNet, and NYUv2 demonstrate that DR-MGF outperforms existing de-conflict methods. Furthermore, DR-MGF can be extended to general MONs without modifying the overall network structures
 
-![image-20251115111656194](Readme.assets/image-20251115111656194.png)
+![image-20251115111656194](./Readme.assets/image-20251115111656194.png)
 
-![image-20251115111633705](Readme.assets/image-20251115111633705.png)
+![image-20251115111633705](./Readme.assets/image-20251115111633705.png)
 
 ### 1. Install:
 
